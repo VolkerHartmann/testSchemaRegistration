@@ -18,7 +18,14 @@
       "type": "string",
       "title": "Author",
       "description": "Author of article"
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "title": "Date",
+      "description": "Publishing date of article"
     }
+  }
   },
   "additionalProperties": false
 }
