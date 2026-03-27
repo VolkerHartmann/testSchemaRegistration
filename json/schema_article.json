@@ -1,17 +1,23 @@
 {
   "$schema": "https://json-schema.org/draft/2019-09/schema",
-  "$id": "http://www.example.org/schema/json/simple",
+  "$id": "http://www.example.org/schema/json/simple_v2",
   "type": "object",
   "title": "Json schema for tests",
   "default": {},
   "required": [
-    "title"
+    "title",
+    "author"
   ],
   "properties": {
     "title": {
       "type": "string",
       "title": "Title",
-      "description": "Title of object."
+      "description": "Title of article."
+    },
+    "author": {
+      "type": "string",
+      "title": "Author",
+      "description": "Author of article"
     }
   },
   "additionalProperties": false
